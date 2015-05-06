@@ -1,0 +1,84 @@
+BODY {
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	font-family: PressStart2P;
+}
+
+@font-face {
+	font-family: PressStart2P;
+	src: url(font/PressStart2P.ttf);
+}
+
+#hole1 {
+	display: block;
+	height: 140px;
+	width: 139px;
+	position: absolute;
+	top: 174px;
+	left: 260px;
+	opacity: 1;
+}
+
+#hole2 {
+	display: block;
+	height: 120px;
+	width: 113px;
+	position: absolute;
+	top: 127px;
+	left: 131px;
+	opacity: 1;
+}
+
+#hole3 {
+	display: block;
+	height: 120px;
+	width: 113px;
+	position: absolute;
+	top: 128px;
+	left: 439px;
+	opacity: 1;
+}
+
+#hole4 {
+	display: block;
+	height: 100px;
+	width: 89px;
+	position: absolute;
+	top: 81px;
+	left: 295px;
+	opacity: 1;
+}
+
+#hole2 IMG {
+	zoom: 75%;
+}
+
+#hole3 IMG {
+	zoom: 75%;
+}
+
+#hole4 IMG {
+	zoom: 60%;
+}
+H1, H2, H3 {
+	color: white;
+}
+
+H1 {
+	position: absolute;
+	top: -12px;
+	left: 9px;
+}
+
+H2 {
+	position: absolute;
+	top: 0px;
+	left: 440px;
+}
+
+H3 {
+	position: absolute;
+	top: 6px;
+	left: 597px;
+	color: red;
+}
